@@ -1,0 +1,2 @@
+class AddRestaurantToReview < ApplicationRecord
+end

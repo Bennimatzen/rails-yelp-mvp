@@ -1,0 +1,11 @@
+<%= simple_form_for @restaurant do |f| %>
+<%= f.label :name %>
+<%= f.text_area :name %>
+<%= f.label :address %>
+<%= f.text_area :address %>
+<%= f.label :phone_number %>
+<%= f.text_area :phone_number %>
+<%= f.label :category %>
+<%= f.text_area :category %>
+<%= f.submit %>
+<% end %>
